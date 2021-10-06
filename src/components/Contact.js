@@ -1,9 +1,9 @@
 import React from "react";
 
 export default function Contact() {
-    const [name, setName] = React.useState("");
-    const [email, setEmail] = React.useState("");
-    const [message, setMessage] = React.useState("");
+    // const [name, setName] = React.useState("");
+    // const [email, setEmail] = React.useState("");
+    // const [message, setMessage] = React.useState("");
   
     function encode(data) {
       return Object.keys(data)
@@ -13,16 +13,16 @@ export default function Contact() {
         .join("&");
     }
   
-    function handleSubmit(e) {
-      e.preventDefault();
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "contact", name, email, message }),
-      })
-        .then(() => alert("Message sent!"))
-        .catch((error) => alert(error));
-    }
+    // function handleSubmit(e) {
+    //   e.preventDefault();
+    //   fetch("/", {
+    //     method: "POST",
+    //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    //     body: encode({ "form-name": "contact", name, email, message }),
+    //   })
+    //     .then(() => alert("Message sent!"))
+    //     .catch((error) => alert(error));
+    // }
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -69,8 +69,7 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+           Thanks for checking out my portfolio if you'd like to work with me feel free to reach out have a great day!
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
