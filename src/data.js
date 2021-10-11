@@ -9,28 +9,13 @@ export const projects = [
     link: 'https://quiet-beyond-69564.herokuapp.com/',
   },
   {
-    title: 'React Tracks',
-    subtitle: 'React and Python',
+    title: 'Crypto Tracker',
+    subtitle:
+      'Basic React app made to utilize and get more hands on experience using axios fetch calls to an external API',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
-    image: './project-2.gif',
-    link: 'https://reactbootcamp.com',
-  },
-  {
-    title: 'DevChat',
-    subtitle: 'React and Firebase',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
-    image: './project-3.gif',
-    link: 'https://reactbootcamp.com',
-  },
-  {
-    title: 'Epic Todo App',
-    subtitle: 'React Hooks',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
-    image: './project-4.gif',
-    link: 'https://reactbootcamp.com',
+      'Crypto Tracker is a very basic app to check current info on crypto currencies',
+    image: './cryptotracker-demo.gif',
+    link: 'https://crypto-tracker-hazel.vercel.app/?',
   },
 ];
 
